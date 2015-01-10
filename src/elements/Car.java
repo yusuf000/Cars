@@ -29,6 +29,7 @@ public class Car{
         } else if (this.direction == 4) {
             this.possition.y--;
         }
+
         System.out.println("car no: " + this.number+ " " +possition.x +" " + possition.y);
         Node temp = Main.isNode(this.possition);
         if(temp != null) {

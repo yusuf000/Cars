@@ -11,6 +11,10 @@ public class Node {
     public Point p;
     public ArrayList<Integer> directions;
 
+
+
+
+
     public Node(Point p, ArrayList<Integer> d) {
         this.p = p;
         this.directions = d;
